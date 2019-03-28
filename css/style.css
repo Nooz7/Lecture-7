@@ -13,8 +13,8 @@
 	font-size: 24px;
 }
 body{
-	height: 1800px;
 	padding-top: 50px;
+	height: 2800px;
 }
 .navigation-li{
 	margin-left: 35px;
@@ -115,7 +115,28 @@ body{
 	margin-left: 4%;
 	text-align: center;
 }
-
+.ball{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border:2px solid black;
+	margin-left: 49%;
+	position: sticky;
+	top: 0;
+	padding:3px;
+}
+.door{
+	width: 6px;
+	height: 70px;
+	background-color: white;
+	border: 2px solid black;
+	margin: 300px 0 0 500px;
+}
+.goal{
+	font-size: 300px;
+	margin-left: 363px;
+	margin-top: 500px;
+}
 
 
 
